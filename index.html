@@ -1,0 +1,60 @@
+<!-- label , "PT Sans Caption" ,sans-serif -->
+
+<!-- bodybg-color   #f7ecde -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sign in page </title>
+	<!-- css styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+	<div class="bg-img vh-100 d-flex align-items-center justify-content-center">
+		<div class="form-wrapper w-50 mx-auto ">
+			<div class="form-item bg-white p-5">
+				<header class="form-header">
+					<h4 class="text-capitalize text-center">lets get started</h4>
+				</header>
+				<form action="">
+					<div class="inputs-grp">
+						<div class="mb-3">
+							<label for="userFullName" class="form-label">Full name</label>
+							<input type="text" class="form-control" id="userFullName">
+							<p class="alert-name nameError text-danger"></p>
+						</div>
+						<div class="mb-3">
+							<label for="email" class="form-label">E-mail</label>
+									<input type="email" class="form-control" id="email">
+										<p class="alert-email emailError text-danger"></p>
+						</div>
+						<div class="mb-3">
+							<label for="password" class="form-label">password</label>
+									<input type="password" class="form-control" id="password">
+										<p class="alert-pass pass-error text-danger"></p>
+						</div>
+						<div class="signUp-btn d-flex align-items-center flex-column justify-content-center">
+								<button type="button" class="btn btn-primary w-75 mx-auto" id="signUpBtn">Sign up</button>
+									<p class="my-3">you hava an account? <a href="login.html" >log in</a></p>
+						</div>
+				
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- main javascript -->
+	<script src="js/index.js"></script>
+	<!-- bootstrap js file -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+/* global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* end global styles */
+
+.bg-img {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../imgs/Fotolia_241479172_XL.jpg);
+    background-size: cover;
+    background-position: center center;
+  
+}
